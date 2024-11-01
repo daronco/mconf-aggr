@@ -7,7 +7,7 @@ ARG DISABLE_DEV
 #
 # Stage: staging
 #
-FROM python:3.9.10 as staging
+FROM python:3.14.0a1 as staging
 ARG BASE_PATH
 ARG APP_NAME
 ARG POETRY_VERSION
